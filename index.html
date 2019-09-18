@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="description" content="Webagency, l'agence qui vous aide à réaliser vos projets web">
+        <meta name="keywords" content="webagency, projet web">
+
+        <meta property="og:title" content="Webagency" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://www.anais.f5rhe.com/" />
+        <meta property="og:image" content="http://www.anais.f5rhe.com/webagency_images/page/logo.png" />
+
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <link rel="shortcut icon" type="image/x-icon" href="webagency_images/favicon.ico">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <title>Webagency</title>
+    </head>
+
+<body>
+
+    <div id="page">
+
+        <header id="accueil">
+            <div id="logo"> <img src="webagency_images/page/logo.png" alt="logo webagency" /> </div>
+                <input type="checkbox" name="menu-hamburger" id="hamburger">
+                <label id="bars" for="hamburger" class="fas fa-bars"></label>
+                <nav id="nav-accueil">
+                    <ul>
+                        <li><a href="#page">Accueil</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#projets">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+        </header>
+
+        <div id="banniere">
+            <input type="radio" name="image" id="image1" >
+            <input type="radio" name="image" id="image2" >
+                <div class="slide-img" id="img1">
+                    <img src="webagency_images/banniere/bg2.jpg" alt="img-petit-garçon" />
+                        <label for="image2" class="fas fa-angle-left"></label>
+                        <label for="image1" class="fas fa-angle-right"></label>
+                            <div id="banniere-texte">
+                                <h1><strong>WEBAGENCY</strong>
+                                <br/>L'AGENCE DE TOUS VOS PROJETS !</h1>
+                            </div>
+                </div>
+                <div class="slide-img" id="img2">
+                    <img src="webagency_images/banniere/bg1.jpg" alt="img-petite-fille" />
+                        <label for="image1" class="fas fa-angle-right"></label>
+                        <label for="image2" class="fas fa-angle-left"></label>
+                            <div id="banniere-texte2">
+                                <h1><strong>WEBAGENCY</strong>: L'AGENCE DE TOUS VOS PROJETS !</h1><p>Vous avez un projet web ? La Webagency vous aide à le réaliser !</p><a href="#services" class="bouton-bleu"> Plus d'infos </a>
+                            </div>
+                </div>
+        </div>
+
+        <section id="services">
+            <h2>NOS SERVICES</h2>
+            <div class="petit-trait"></div><i class="fas fa-circle"></i>
+            <p class="intro">Nous vous accompagnons durant toutes les étapes de votre projet web et mettons à votre disposition
+            <br/>les astuces et supports techniques pour réussir</p>
+
+            <div id="presentation">
+                    <img src="webagency_images/page/main-feature.png" alt="image ordi" />
+
+                <div id="info">
+                    <div class="ux-design">
+                        <i class="fas fa-chart-line"></i><i class="fas fa-circle"></i><p><strong>UX design</strong><br>Rendre votre site accesible facile à prendre en main et éfficace en prenant en compte les attentes et besoins des utilisateurs</p>
+                    </div> 
+                    <div class="ui-design">
+                        <i class="fas fa-cubes"></i><i class="fas fa-circle"></i><p><strong>UI design</strong><br>Rendre l’expérience de navigation la plus agréable et pratique possible pour l'utilisateur via un design fonctionnel </p>
+                    </div> 
+                    <div class="SEO">
+                        <i class="fas fa-chart-pie"></i><i class="fas fa-circle"></i><p><strong>SEO</strong><br>vous aider a mieux positionner votre site parmi les resultats des moteurs de recherche afin d'ameliorer la visibilité de celui-ci</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projets">
+                <h2>NOS PROJETS</h2><div class="petit-trait"></div><i class="fas fa-circle"></i>
+                <br/><p class="intro">Voici quelques exemples de projets réalisés avec nos clients</p>
+            <nav id="nav-projet">
+                <ul>
+                    <li>
+                        <label for="all"><span>All works</span></label>
+                        <i class="fas fa-caret-down"></i>
+                    </li>
+                    <li>
+                        <label for="creative"><span>Creative</span></label>
+                        <i class="fas fa-caret-down"></i>
+                    </li>
+                    <li>
+                        <label for="corporate"><span>Corporate</span></label>
+                        <i class="fas fa-caret-down"></i>
+                    </li>
+                    <li>
+                        <label for="portfolio"><span>Portfolio</span></label>
+                        <i class="fas fa-caret-down"></i>
+                    </li>
+                </ul>   
+            </nav>
+
+            <div id="exemples">
+                <input type="radio" name="photo" id="all" checked>
+                <input type="radio" name="photo" id="creative">
+                <input type="radio" name="photo" id="corporate">
+                <input type="radio" name="photo" id="portfolio">
+
+            <figure class="corporate">
+                <img src="webagency_images/portfolio/01.jpg" alt="site opticien">
+                <figcaption>
+                    <span>Optic.com</span>
+                    <br>Site d'un opticien
+                    <i class="fas fa-eye"></i>
+                </figcaption>
+            </figure>
+            <figure class="creative">
+                <img src="webagency_images/portfolio/02.jpg" alt="site activite enfants">
+                <figcaption>
+                    <span>Idéeactivité.com</span>                   
+                    <br>Site d'activités pour enfants
+                    <i class="fas fa-eye"></i>
+                </figcaption>
+            </figure>
+            <figure class="corporate">
+                <img src="webagency_images/portfolio/03.jpg" alt="site coiffure">
+                <figcaption>
+                    <span>Pompadour.com</span>
+                    <br>Site d'un salon de coiffure
+                    <i class="fas fa-eye"></i>
+                </figcaption>
+            </figure>
+            <figure class="portfolio">
+                <img src="webagency_images/portfolio/04.jpg" alt="site hvdvqvkj">
+                <figcaption>
+                    <span>Archi-tecte.com</span>
+                    <br>Site d'un architecte
+                    <i class="fas fa-eye"></i>
+                </figcaption>
+            </figure>
+            <figure class="corporate">
+                <img src="webagency_images/portfolio/05.jpg" alt="site shopping">
+                <figcaption>
+                    <span>shopinline.com</span>
+                    <br>Site de shopping en ligne
+                    <i class="fas fa-eye"></i>
+                </figcaption>
+            </figure>
+            <figure class="portfolio">
+                <img src="webagency_images/portfolio/06.jpg" alt="site voyage">
+                <figcaption>
+                    <span>Travel.com</span>
+                    <br>Site de voyage
+                    <i class="fas fa-eye"></i>
+                </figcaption>
+            </figure>
+            <figure class="creative">
+                <img src="webagency_images/portfolio/07.jpg" alt="site dessinateur">
+                <figcaption>
+                    <span>Drawing.com</span>
+                    <br>Site d'un déssinateur
+                    <i class="fas fa-eye"></i>
+                </figcaption>
+            </figure>
+            <figure class="corporate">
+                <img src="webagency_images/portfolio/08.jpg" alt="site imprimerie">
+                <figcaption>
+                    <span>Imprimall.com</span>
+                    <br>Site d'une imprimerie
+                    <i class="fas fa-eye"></i>
+                </figcaption>
+            </figure>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div id="map">
+                <img src="webagency_images/page/map.png" alt="carte">
+            </div>
+                <div id="formulaire">
+                    <h3>Contact Info</h3>
+                    <strong>Webagency SAS</strong>
+                    <br>25 Rue d'Hauteville 75010 Paris
+                    <br>Tel : 01 02 03 04 05
+                    <form method="post" action="traitement.php">
+                        <input type="text" name="name" placeholder="Name">
+                        <input type="text" name="email" placeholder="Email">
+                        <input type="text" name="subject" placeholder="Subject">
+                        <textarea name="message" placeholder="Message" rows="5" cols="50"></textarea>
+                        <input type="submit" value="Send message" id="bouton">
+                    </form>
+                </div>
+        </section>
+    </div>
+</body>
+</html>
